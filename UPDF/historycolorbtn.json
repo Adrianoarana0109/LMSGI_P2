@@ -1,0 +1,25 @@
+{
+    "EditTextItem": {
+        "lastFontSet": {
+            "lastFont": "Segoe UI",
+            "lastFontC": "#ff000000"
+        }
+    },
+    "LastAttachmentType": 0,
+    "colorSelect": {
+        "Color": {
+            "0": "#2de0c8",
+            "1": "#ffea29",
+            "2": "#53ffa2",
+            "3": "#5dd8ff",
+            "4": "#cda7ff",
+            "5": "#ffa7c1",
+            "6": "#0078e7"
+        }
+    },
+    "redact": {
+        "lastFontSet": {
+            "lastFillC": "#ff000000"
+        }
+    }
+}
