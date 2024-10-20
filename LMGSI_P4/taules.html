@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Horari</title>
+</head>
+<body>
+  <h1>Horari</h1>
+  
+  <table>
+    <caption>Curs 24-25</caption>
+    <thead>
+      <tr>
+        <th></th>
+        <th>dilluns</th>
+        <th>dimarts</th>
+        <th>dimecres</th>
+        <th>dijous</th>
+        <th>divendres</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td class="hora">8:00 - 9:00</td>
+        <td class="lenguaje" rowspan="2">LMSGI</td>
+        <td class="datos" rowspan="2">BD</td>
+        <td class="programacion" rowspan="2">P+ED</td>
+        <td class="sistemas" rowspan="2">SI</td>
+        <td class="datos" rowspan="2">BD</td>
+    </tr>
+    <tr>
+        <td class="hora">9:00 - 10:00</td>
+    </tr>
+    <tr>
+        <td class="hora">10:00 - 11:00</td>
+        <td class="programacion">P+ED</td>
+        <td class="tutoria">TUT</td>
+        <td class="ingles">AN</td>
+        <td class="programacion">P+ED</td>
+        <td class="programacion">P+ED</td>
+    </tr>
+    <tr>
+        <td colspan="6" style="text-align:center;">Descans</td>
+    </tr>
+    <tr>   
+        <td class="hora">11:30 - 12:30</td>
+        <td class="programacion">P+ED</td>
+        <td class="diseño" rowspan="2">DIW</td>
+        <td class="ipo" rowspan="2">IPOI</td>
+        <td class="programacion" rowspan="2">P+ED</td>
+        <td class="programacion">P+ED</td>
+    </tr>
+    <tr>
+        <td class="hora">12:30 - 13:30</td>
+        <td class="diseño">DIW</td>
+        <td class="sistemas">SI</td>
+    </tr>
+</tbody>
+</table>
+<style>
+h1 {
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  table {
+    width: 100%;
+    margin: auto; 
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Verdana;
+  }
+  
+  caption {
+    color: orange;
+    font-size: 25px;
+    padding: 10px;
+  }
+  
+  th, td {
+    border: 1px solid black; 
+    padding: 10px;
+  }
+  
+  th {
+    background-color: lightgreen; 
+    font-weight: bold;
+    width: 100px;
+    padding: 30px;
+    font-size: 25px;
+  } 
+  
+  td[colspan] {
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+  }
+  .hora {
+  font-size: 20px;
+  padding: 10px;
+  width: 180px;
+}
+ .lenguaje {
+  background-color: pink;
+}
+ .programacion {
+  background-color: green;
+}
+ .ipo {
+  background-color: red;
+}
+.datos {
+  background-color: wheat;
+}
+.tutoria {
+  background-color: skyblue;
+}
+.sistemas {
+  background-color: yellow;
+}
+.diseño {
+  background-color: orange;
+}
+.ingles {
+  background-color: rgb(238, 186, 30);
+}
+</body>
+</html>
